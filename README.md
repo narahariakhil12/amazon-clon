@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Use this link to check this website https://narahariakhil12.github.io/amazon-clone/ and click on amazon logo to work properly. I am working on that error currently.
+Use this link to check this website https://narahariakhil12.github.io/amazon-clone/ .
 
 ## Available Scripts
 
