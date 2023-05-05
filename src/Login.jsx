@@ -13,7 +13,7 @@ export default function Login() {
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
-        history.push("/");
+        history.push("/amazon-clone");
       })
       .catch((e) => alert(e.message));
   };
@@ -22,13 +22,13 @@ export default function Login() {
     auth
       .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
-        history.push("/");
+        history.push("/amazon-clone");
       })
       .catch((e) => alert(e.message));
   };
   return (
     <div className="login">
-      <Link to="/">
+      <Link to="/amazon-clone">
         <img
           className="login__logo"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"

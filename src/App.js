@@ -38,13 +38,13 @@ function App() {
       <div className="app">
         <Header />
         <Switch>
-          <Route path="/checkout">
+          <Route path="/amazon-clone/checkout">
             <Checkout />
           </Route>
-          <Route path="/login">
+          <Route path="/amazon-clone/login">
             <Login />
           </Route>
-          <Route exact path="/">
+          <Route exact path="/amazon-clone">
             <Home />
           </Route>
         </Switch>
